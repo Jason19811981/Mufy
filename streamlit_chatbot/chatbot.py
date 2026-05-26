@@ -5,11 +5,11 @@ st.title("My first Streamlit App")
 st.header("Welcome to the dashboard")
 st.write("This is a simple demostration of Streamlit capabilities")
 
-def initialize_session_state()
+def initialize_session_state():
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-def main()
+def main():
     st.title("Simple Chatbot")
 
     initialize_session_state()
