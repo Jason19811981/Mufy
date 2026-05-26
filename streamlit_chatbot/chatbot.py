@@ -33,7 +33,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-df = pd.Dataframe({
+df = pd.DataFrame({
     'Month': ['January', 'February', 'March', 'January'],
     'Price': [1000, 1500, 2000, 1200]
 })
