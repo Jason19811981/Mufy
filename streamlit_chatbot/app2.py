@@ -54,11 +54,20 @@ if "initialized" not in st.session_state:
         },
         {   
             "id": 6,
-            "name": "Ivan haha",
-            "age": 20,
+            "name": "Ivan",
+            "age": 18,
             "gender": "Male",
-            "fav_subject": "Math",
+            "fav_subject": "Physics",
             "bio": "I love using gemini.",
+            "avatar": "👩‍⚕️"
+        },
+        {
+            "id": 7,
+            "name": "Jiaquan",
+            "age": 18,
+            "gender": "Male",
+            "fav_subject": "Chemistry",
+            "bio": "I hate school.",
             "avatar": "👩‍⚕️"
         }
     ]
