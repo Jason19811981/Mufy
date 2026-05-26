@@ -51,6 +51,15 @@ if "initialized" not in st.session_state:
             "fav_subject": "Chemistry",
             "bio": "Pre-med track. Memorizing organic chemistry pathways right now. Let's quiz each other!",
             "avatar": "👩‍⚕️"
+        },
+        {   
+            "id": 6,
+            "name": "Ivan haha",
+            "age": 20,
+            "gender": "Male",
+            "fav_subject": "Math",
+            "bio": "I love using gemini.",
+            "avatar": "👩‍⚕️"
         }
     ]
     st.session_state.current_index = 0
